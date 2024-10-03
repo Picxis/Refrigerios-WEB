@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/620/939/non_2x/blue-wave-abstract-background-web-background-blue-texture-banner-design-creative-cover-design-backdrop-minimal-background-illustration-vector.jpg);
+}
+
+header {
+    background-color: #33333377;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 50px;
+    margin-left: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #33333379;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.botones {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
